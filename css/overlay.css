@@ -74,7 +74,7 @@
 	
 	font-weight: 200;
 	display: block;
-	color:#fff;
+	color:rgb(239,233,219);
 	-webkit-transition: color 0.2s;
 	-webkit-transition: color 0.2s,background-color 0.2s;
 	-o-transition: color 0.2s,background-color 0.2s;
