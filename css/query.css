@@ -1,0 +1,300 @@
+/* ================ RESPONSIVE ==================== */
+
+
+@media only screen and (min-width: 1023px) and (max-width: 1365px){ 
+	
+	h1{
+		font-size:400%;
+	}
+	h2{
+		font-size:350%;
+	}
+	.menu{
+		display:none;
+	}
+	.header-title{
+		margin-top:20em;
+	}
+	.header-title .main-text{
+		font-size:150%;
+		width:70%;
+	}
+	.service-column{
+		padding:4em;
+
+	}
+	.jobs .main-text{
+		font-size:150%;
+		width:50%;
+	}
+	.top-footer .footer-column{
+		width:25%;
+		padding: 0 3em;
+	}
+	.bottom-footer{
+		padding:2em 10em;
+	}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1022px){ 
+	h1{
+		font-size:320%;
+	}
+	h2{
+		font-size:280%;
+	}
+	.btn{
+		padding:5px 12px;
+		font-size:90%;
+	}
+	.big-btn{
+		padding:7px 25px;
+		font-size:90%;
+	}
+	.btn-gray{
+		padding:10px 35px;
+		font-size:90%;
+	}
+	.sticky .menu-big{
+		display:block;
+	}
+	.menu-big{
+		display:block;
+	}
+	.header-title{
+		margin-top:20em;
+	}
+	.header-title .main-text{
+		font-size:120%;
+		width:50%;
+	}
+	.service-column{
+		padding:4em 5px 4em;
+	}
+	.service-column p{
+		font-size:100%;
+	}
+	.jobs .main-text{
+		font-size:120%;
+		width:70%;
+	}
+	.jobs-column{
+		padding:2em 4em 3em;
+	}
+	.top-footer .footer-column{
+		width:30%;
+		padding:0 2em;
+	}
+
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px){ 
+
+	h1{
+		font-size:420%;
+	}
+	h2{
+		font-size:280%;
+	}
+
+	.btn{
+		padding:5px 12px;
+		font-size:70%;
+	}
+
+	
+	
+	.btn{
+		padding:5px 12px;
+		font-size:90%;
+	}
+	.big-btn{
+		padding:7px 25px;
+		font-size:90%;
+	}
+	.btn-gray{
+		padding:10px 35px;
+		font-size:90%;
+	}
+	.sticky .logo{
+		padding-top:2em 
+
+	}
+	.menu-big, .sticky .menu-big{
+		display:none;
+	}
+	.menu{
+		display:block;
+		float:right;
+	}
+	.header-title{
+		margin-top:20em;
+	}
+	.header-title .main-text{
+		font-size:120%;
+		width:50%;
+	}
+	.service-column{
+		padding:4em 5px 4em;
+	}
+	.service-column p{
+		font-size:100%;
+	}
+	.jobs .main-text{
+		font-size:120%;
+		width:70%;
+	}
+	.jobs-column{
+		padding:2em 4em 3em;
+	}
+
+	.top-footer .footer-column{
+		width:30%;
+		padding:0 1em;
+	}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 420px){ 
+	
+	h1{
+		font-size:420%;
+	}
+	h2{
+		font-size: 240%;
+    	line-height: 1;
+    	margin: 0 auto;
+   		 width: 50%;
+   		 font-weight:600;
+   		 
+
+	}
+	.big-btn{
+		
+	}
+	.btn{
+		padding:5px 5px;
+		font-size:90%;
+		border:none;
+		color: rgb(196, 18, 48);
+	}
+	.big-btn{
+		
+		display:none;
+	}
+	.btn-gray{
+		padding:10px 35px;
+		font-size:90%;
+		margin-top:0;
+	}
+	.sticky .logo{
+		padding-top:2em;
+	}
+	.menu-big, .sticky .menu-big{
+		display:none;
+	}
+	.menu-big{
+		display:none;
+	}
+	.menu{
+		display:block;
+		
+	}
+	.header-title{
+		margin-top:20em;
+	}
+	
+
+	header p.main-text{
+		visibility: hidden;
+	}
+	span.small-main-text{
+		text-transform:uppercase;
+		visibility: visible;
+		font-size:80%;
+		
+	}
+	.header-title .main-text{
+		font-size:120%;
+		width:50%;
+	}
+
+	.service-column{
+		padding:4em 5px 4em;
+		width:100%;
+	}
+	.service-column p{
+		font-size:100%;
+	}
+	.jobs, .content, .social{
+		position: relative;
+		padding:2em 0em;
+		text-align:center;
+		margin:0 auto;
+	
+	}
+	.jobs .main-text{
+		font-size:120%;
+		width:70%;
+	}
+	.jobs-column{
+		padding:1em 2em;
+		background-color:rgb(251,251,251);
+	}
+	.jobs-column-left{
+		width:100%;
+	}
+	.active, .active .btn , .active .big-btn, .active .jobs-text{
+		background-color:#fff;
+		color:rgb(34,34,34);
+		
+	}
+	.active .btn{
+		color: rgb(196, 18, 48);
+	}
+
+
+	.mobile-buttons{
+		display:block;
+	}
+	.sticky-buttons{
+		display:none;
+	}
+	.content{
+		height:30%;
+	}
+	.content-text{
+		padding:0 2em;
+	}
+	
+	.top-footer{
+		padding:2em 2em;
+
+	}
+	.top-footer .footer-column{
+		width:100%;
+		padding:2em 2em;
+	}
+	.bottom-footer-left{
+		float:none;
+		width:100%;
+	}
+	.bottom-footer-left p{
+		font-size:65%;
+	}
+	.bottom-footer-right{
+		
+		width:100%;
+		
+	}
+	.footer-pc{
+		display:none;
+	}
+	.footer-mob{
+		width:100%;
+		display:inline-block;
+	}
+	.footer-mob a{
+		margin-right:1em;
+	}
+
+}
