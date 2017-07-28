@@ -1,2 +1,0 @@
-# divanee
-Template
